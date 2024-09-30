@@ -1,0 +1,16 @@
+{
+  "name": "kanban-board",
+  "version": "1.0.0",
+  "description": "A Kanban board visually organizes tasks into columns like To Do, In Progress, and Done. Users can add, move, and manage tasks between these stages, helping track progress and improve workflow efficiency. It's designed to simplify task management by offering a clear, real-time overview of what needs to be done.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ankur Jha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "node": "^22.9.0",
+    "nodemon": "^3.1.7"
+  }
+}
