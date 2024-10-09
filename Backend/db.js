@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
-
-mongoose.connect(`mongodb+srv://ankur7:vJ8Oo1aiYpppkTPW@cluster0.bmtrf.mongodb.net/kanban`).
+require('dotenv').config();
+mongoose.connect(process.env.MONGODB_URI).
 then(()=>{
     console.log("Connected")
 })
