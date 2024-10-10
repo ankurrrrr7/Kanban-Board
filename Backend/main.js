@@ -14,7 +14,8 @@ router.post("/todo",async(req,res)=>{
         msg :"Todo created"
     })
 })
-router.get("/todos",async(req,res)=>{
+router.get("/todo/:id",async(req,res)=>{
+    _id =  req.body.id
     const todos = await todo.find({});
     res.json({
         todo:todos
